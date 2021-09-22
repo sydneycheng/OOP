@@ -18,11 +18,10 @@ def main():
        for count in range(10):
            my_coin.toss()
            
+           my_coin.sideup = 'Heads'
+
            # Display the side of the coin that is facing up.
            print('This side is up:', my_coin.get_sideup())
-
-           
-
 
        
 
