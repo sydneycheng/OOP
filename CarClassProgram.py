@@ -11,12 +11,14 @@ car = CarClass.Car(year_model,make)
 num = 5
 
 for x in range(num):
+    print("Your car's current speed is: ")
     car.accelerate()
-    car.get_speed()
-
+    print(car.get_speed())
 
 #call the brake method 5 times
-#get the current speed of the car after each call to the accelerator method
+#get the current speed of the car after each call to the speed method
+
 for s in range(num):
+    print("Your car's current speed is: ")
     car.brake()
-    car.get_speed()
+    print(car.get_speed())
